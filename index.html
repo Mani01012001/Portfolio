@@ -28,10 +28,6 @@
     <header class="site-header">
       <a class="brand" href="#home">MB</a>
       <div class="header-actions">
-        <button class="theme-btn" id="themeToggle" aria-label="Toggle theme">
-          <i class="ri-contrast-2-line" aria-hidden="true"></i>
-          <span>Theme</span>
-        </button>
         <button class="menu-btn" id="menuBtn" aria-label="Toggle menu">Menu</button>
       </div>
       <nav class="nav" id="nav">
@@ -42,12 +38,17 @@
         <a href="#ai-lab">AI Lab</a>
         <a href="#talk">Talk</a>
         <a href="#contact">Contact</a>
+        <button class="theme-btn" id="themeToggle" aria-label="Toggle theme">
+          <i class="ri-contrast-2-line" aria-hidden="true"></i>
+          <span>Theme</span>
+        </button>
       </nav>
     </header>
 
     <main id="home">
       <section class="hero reveal">
         <p class="eyebrow">Platform and DevOps Portfolio</p>
+        <p class="hero-role">DevOps Engineer | Azure | CI/CD | Hadoop and Cloudera Specialist</p>
         <h1>
           MANIGANDAN B<br />
           Platform and DevOps Engineer
@@ -55,9 +56,10 @@
         <div class="hero-layout">
           <div>
             <p class="hero-copy">
-              I design and operate reliable Linux platforms, build secure CI/CD delivery flows,
-              and automate operational workloads for enterprise systems. My focus is stable
-              production change, faster delivery, and measurable reliability improvement.
+              4+ years of experience building and operating enterprise platform systems across
+              Linux, Azure DevOps, and Hadoop ecosystems. I automate delivery pipelines,
+              stabilize production workloads, and reduce deployment risk through repeatable,
+              measurable engineering practices.
             </p>
             <div class="hero-metrics">
               <span>4+ years in platform operations</span>
@@ -117,8 +119,9 @@
           I am currently based in Utrecht, Netherlands, working onsite for the last six months.
           Prior to this assignment, I worked in Chennai, India. I specialize in Linux platform
           engineering, CI/CD pipeline delivery, and automation with Python, Bash, Ansible, and
-          Terraform. I partner with development and operations teams to deliver secure,
-          repeatable production changes with strong SLA performance.
+          Terraform. I enjoy solving reliability bottlenecks and reducing operational risk in
+          financial-grade environments. I am targeting Platform Engineer and DevOps Engineer roles
+          where production stability, delivery acceleration, and automation depth are valued.
         </p>
       </section>
 
@@ -130,6 +133,10 @@
           (Earlier tenure)
         </p>
         <ul>
+          <li>
+            Netherlands Mortgage Program (OPK): Supported critical platform and release operations
+            with strong SLA adherence across CI/CD, re-engineering, and platform streams.
+          </li>
           <li>Owned RHEL/CentOS production platform operations, patching, hardening, and tuning.</li>
           <li>
             Engineered and maintained multi-stage Azure DevOps and Jenkins pipelines across Dev,
@@ -199,7 +206,7 @@
       <section class="projects reveal" id="projects">
         <div class="section-head">
           <h2>Featured Projects</h2>
-          <p>High-impact platform engineering work delivered in production.</p>
+          <p>Case studies focused on problem, solution, architecture, and measurable results.</p>
         </div>
         <div class="project-filters" id="projectFilters">
           <button class="filter-btn active" type="button" data-filter="all">All</button>
@@ -213,9 +220,12 @@
           <article class="card" data-category="reliability">
             <p class="card-kicker">Observability and Reliability</p>
             <h3>Unified Observability Platform</h3>
-            <p>
-              Architected and deployed a production observability stack (Grafana, Splunk, Dynatrace, Azure Monitor) across 50+ Linux workloads. Result: 25% faster incident detection, 18% faster resolution time (MTTR reduced from 45 min to 37 min), and 99.9% SLA maintained across critical systems.
-            </p>
+            <p class="case-line"><strong>Problem:</strong> Slow incident detection across distributed Linux workloads.</p>
+            <p class="case-line"><strong>Solution:</strong> Built unified observability across Grafana, Splunk, Dynatrace, and Azure Monitor.</p>
+            <p class="case-line"><strong>Result:</strong> 25% faster detection, 18% faster MTTR, sustained 99.9% SLA.</p>
+            <div class="arch-diagram" aria-label="Observability architecture">
+              <span>Linux Nodes</span><span>Collectors</span><span>Monitoring Stack</span><span>Alerts and On-call</span>
+            </div>
             <div class="tag-row">
               <span>Grafana</span><span>Splunk</span><span>Dynatrace</span><span>Azure Monitor</span><span>+25% MTTD</span>
             </div>
@@ -223,9 +233,12 @@
           <article class="card" data-category="automation">
             <p class="card-kicker">Automation</p>
             <h3>Alert Noise Reduction and Runbook Automation</h3>
-            <p>
-              Built Python/Bash-driven alert processing pipeline and 12+ runbooks for incident escalation, on-call notification, and health checks. Impact: 35% alert noise reduction, 40% manual effort savings per incident, 8 FTE hours reclaimed weekly for strategic work.
-            </p>
+            <p class="case-line"><strong>Problem:</strong> High alert noise and repetitive manual incident triage.</p>
+            <p class="case-line"><strong>Solution:</strong> Built Python and Bash automations with 12+ runbooks and escalation logic.</p>
+            <p class="case-line"><strong>Result:</strong> 35% noise reduction, 40% less manual effort, 8 FTE hours/week saved.</p>
+            <div class="arch-diagram" aria-label="Automation flow architecture">
+              <span>Alerts</span><span>Python/Bash Rules</span><span>Runbooks</span><span>Escalation</span>
+            </div>
             <div class="tag-row">
               <span>Python</span><span>Bash</span><span>Runbooks</span><span>AIOps</span><span>-35% Noise</span>
             </div>
@@ -233,9 +246,12 @@
           <article class="card" data-category="cicd">
             <p class="card-kicker">CI/CD and Configuration</p>
             <h3>Pipeline Standardization Across Environments</h3>
-            <p>
-              Engineered 18 multi-stage pipelines across Azure DevOps and Jenkins with automated compliance gates, security scanning, and Ansible-driven config consistency. Outcome: 30% faster release cycles, zero security compliance violations, 99.8% pipeline success rate across 200+ deployments.
-            </p>
+            <p class="case-line"><strong>Problem:</strong> Inconsistent deployments and release delays across environments.</p>
+            <p class="case-line"><strong>Solution:</strong> Standardized Azure DevOps/Jenkins pipelines with compliance gates and Ansible configuration controls.</p>
+            <p class="case-line"><strong>Result:</strong> 30% faster releases, 99.8% pipeline success, zero compliance violations.</p>
+            <div class="arch-diagram" aria-label="CI/CD architecture">
+              <span>Git Change</span><span>Azure DevOps</span><span>Ansible Deploy</span><span>Dev/Test/Prod</span>
+            </div>
             <div class="tag-row">
               <span>Azure DevOps</span><span>Jenkins</span><span>Ansible</span><span>Compliance</span><span>-30% Cycle</span>
             </div>
@@ -264,7 +280,7 @@
       </section>
 
       <section class="skills reveal" id="skills">
-        <h2>Skills</h2>
+        <h2>DevOps Tools and Stack</h2>
         <div class="skills-grid">
           <article class="skill-box">
             <h3>Linux and Platform</h3>
@@ -464,6 +480,13 @@
             </p>
           </div>
         </div>
+      </section>
+
+      <section class="theme-section reveal" id="theme-section">
+        <button class="theme-btn" id="themeToggle" aria-label="Toggle theme">
+          <i class="ri-contrast-2-line" aria-hidden="true"></i>
+          <span>Theme</span>
+        </button>
       </section>
     </main>
 
