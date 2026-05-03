@@ -1264,6 +1264,10 @@ body[data-theme="dark"] .metric-badge {
     grid-template-columns: 1fr;
   }
 
+  .hero-impact-grid {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+
   .project-grid {
     grid-template-columns: 1fr;
   }
@@ -1326,11 +1330,41 @@ body[data-theme="dark"] .metric-badge {
     padding: 24px;
   }
 
+  .hero-impact-grid {
+    gap: 10px;
+  }
+
+  .impact-card {
+    padding: 12px 10px;
+  }
+
+  .impact-value {
+    font-size: 1.45rem;
+  }
+
+  .impact-label {
+    font-size: 0.68rem;
+  }
+
   .kpi-strip {
     grid-template-columns: 1fr;
   }
 
   .chat-form {
     grid-template-columns: 1fr;
+  }
+}
+
+@media (max-width: 480px) {
+  .hero-impact-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .impact-value {
+    font-size: 1.35rem;
+  }
+
+  .impact-label {
+    font-size: 0.66rem;
   }
 }
