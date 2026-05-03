@@ -32,6 +32,24 @@ if (menuBtn && nav) {
 
 function applyTheme(theme) {
   document.body.setAttribute("data-theme", theme);
+  updateThemeToggleIcon(theme);
+}
+
+function updateThemeToggleIcon(theme) {
+  if (!themeToggle) {
+    return;
+  }
+
+  const icon = themeToggle.querySelector("i");
+  if (!icon) {
+    return;
+  }
+
+  if (theme === "dark") {
+    icon.className = "ri-moon-clear-line";
+  } else {
+    icon.className = "ri-sun-line";
+  }
 }
 
 const savedTheme = window.localStorage.getItem("portfolio-theme");
