@@ -115,16 +115,31 @@ body[data-theme="dark"]::before {
   margin: 0 auto;
   padding: 11px 18px;
   backdrop-filter: blur(10px);
-  background: linear-gradient(135deg, rgba(238, 244, 248, 0.92), rgba(224, 238, 241, 0.86));
+  background: linear-gradient(135deg, rgba(238, 244, 248, 0.95), rgba(220, 236, 239, 0.9));
   border: 1px solid rgba(16, 35, 58, 0.13);
   border-radius: 18px;
-  box-shadow: 0 10px 26px rgba(16, 35, 58, 0.1);
+  box-shadow: 0 12px 30px rgba(16, 35, 58, 0.12);
 }
 
 .header-actions {
   display: flex;
   align-items: center;
   gap: 8px;
+}
+
+.availability-badge {
+  display: inline-flex;
+  align-items: center;
+  padding: 6px 10px;
+  border-radius: 999px;
+  border: 1px solid rgba(15, 118, 110, 0.3);
+  background: var(--accent-soft);
+  color: var(--accent-deep);
+  font-size: 0.68rem;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  font-weight: 700;
+  white-space: nowrap;
 }
 
 .theme-btn {
@@ -224,6 +239,11 @@ body[data-theme="dark"] .site-header {
   border-color: rgba(232, 241, 255, 0.2);
 }
 
+body[data-theme="dark"] .availability-badge {
+  color: #c9ffe9;
+  border-color: rgba(52, 211, 153, 0.4);
+}
+
 main {
   width: min(1280px, 94vw);
   margin: 0 auto;
@@ -243,7 +263,7 @@ section {
   background:
     linear-gradient(170deg, rgba(255, 255, 255, 0.85), rgba(241, 248, 247, 0.72)),
     radial-gradient(circle at top right, rgba(56, 189, 248, 0.12), transparent 55%);
-  box-shadow: 0 14px 30px rgba(16, 35, 58, 0.09);
+  box-shadow: 0 16px 34px rgba(16, 35, 58, 0.1);
 }
 
 .hero-layout {
@@ -256,21 +276,21 @@ section {
 .kpi-strip {
   display: grid;
   grid-template-columns: repeat(3, minmax(0, 1fr));
-  gap: 10px;
-  margin-top: 18px;
+  gap: 12px;
+  margin-top: 20px;
 }
 
 .kpi-item {
   border: 1px solid rgba(16, 35, 58, 0.12);
-  border-radius: 12px;
-  padding: 12px;
-  background: rgba(255, 255, 255, 0.74);
+  border-radius: 14px;
+  padding: 14px;
+  background: rgba(255, 255, 255, 0.86);
 }
 
 .kpi-value {
   margin: 0;
   font-family: "Fraunces", serif;
-  font-size: 1.1rem;
+  font-size: 1.2rem;
   font-weight: 700;
 }
 
@@ -1021,6 +1041,10 @@ body[data-theme="dark"] .footer-link {
   .site-header {
     grid-template-columns: auto auto;
     border-radius: 16px;
+  }
+
+  .availability-badge {
+    display: none;
   }
 
   .nav {
