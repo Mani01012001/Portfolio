@@ -384,15 +384,20 @@ h2 {
 .impact-value {
   margin: 0;
   font-family: "Fraunces", serif;
-  font-size: 1.8rem;
+  font-size: 1.65rem;
   font-weight: 700;
   color: var(--accent-deep);
   line-height: 1.1;
 }
 
+.impact-unit {
+  font-size: 0.62em;
+  letter-spacing: 0.02em;
+}
+
 .impact-label {
   margin: 6px 0 0;
-  font-size: 0.78rem;
+  font-size: 0.72rem;
   color: var(--muted);
   font-weight: 700;
   text-transform: uppercase;
