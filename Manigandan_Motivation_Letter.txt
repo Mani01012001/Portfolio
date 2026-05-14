@@ -43,6 +43,5 @@ Best regards,
 Manigandan B
 Platform and DevOps Engineer
 Utrecht, Netherlands
-+31 617886316 | mmani27964@gmail.com
-https://mani01012001.github.io/Portfolio/</content>
++31 617886316 | mmani27964@gmail.com</content>
 <parameter name="filePath">C:\Users\csbaskaranm\Portfolio\Manigandan_Motivation_Letter.txt

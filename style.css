@@ -534,7 +534,6 @@ body[data-theme="dark"] .core-skill {
 .skills,
 .ai-lab,
 .talk,
-.motivation,
 .contact {
   padding: 28px;
   border-radius: var(--radius);
@@ -1252,19 +1251,6 @@ body[data-theme="dark"] .metric-badge {
 .reveal.visible {
   opacity: 1;
   transform: none;
-}
-
-.motivation-intro {
-  margin-top: 0;
-  margin-bottom: 20px;
-  color: var(--muted);
-  font-size: 0.95rem;
-}
-
-.motivation-actions {
-  display: flex;
-  gap: 12px;
-  flex-wrap: wrap;
 }
 
 
