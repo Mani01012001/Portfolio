@@ -1,0 +1,47 @@
+[Your Name]
+[Your Address]
+Utrecht, Netherlands
+[Email Address]
+[Phone Number]
+[Date]
+
+[Hiring Manager's Name or "Hiring Team"]
+[Company Name]
+[Company Address]
+
+Dear Hiring Team,
+
+Subject: Application for Platform/DevOps Engineer Position - Passionate About Building Reliable Systems
+
+I am writing to express my strong interest in the Platform/DevOps Engineer position at your organization. With over four years of hands-on experience in enterprise DevOps and platform engineering, I am excited about the opportunity to bring my expertise in automation, reliability, and operational excellence to your team.
+
+What Drives Me: The Power of Reliable Systems
+
+In today's fast-paced digital landscape, I believe that **reliability is not just a technical requirement—it's a business enabler**. Every deployment, every automated pipeline, and every monitoring alert represents an opportunity to make systems more trustworthy and teams more productive. I am motivated by the challenge of turning complex infrastructure into seamless, dependable platforms that developers can rely on without second thoughts.
+
+Why I Do What I Do: Reducing Friction, Enabling Innovation
+
+My journey in DevOps began with a simple realization: developers want to ship code quickly, while operations teams need stability and predictability. This tension creates friction that slows down innovation and frustrates teams. I am passionate about bridging this gap through:
+
+- **Intelligent Automation**: Building systems that handle repetitive tasks so engineers can focus on creative problem-solving
+- **Proactive Reliability**: Implementing monitoring and alerting that catches issues before they impact users
+- **Standardized Excellence**: Creating deployment pipelines that are both flexible and controlled
+
+My recent experience leading disaster recovery efforts during a datacenter fire reinforced why this work matters. When systems fail unexpectedly, the true value of robust DevOps practices becomes evident. Being able to restore service quickly and maintain business continuity under pressure is what makes this field so rewarding.
+
+The Impact I Want to Create
+
+I want to motivate others in the DevOps community by demonstrating that reliability engineering is not about preventing change—it's about enabling confident, rapid change. When teams trust their deployment pipelines, when they receive meaningful alerts instead of noise, and when they can focus on building features rather than fighting infrastructure, that's when true innovation happens.
+
+I am particularly drawn to your organization because [mention something specific about the company if known, or generally: "of your commitment to technical excellence and scalable solutions"]. I would welcome the opportunity to discuss how my experience in Azure DevOps, Linux platform operations, and enterprise automation can contribute to your team's success.
+
+Thank you for considering my application. I look forward to the possibility of contributing to your mission and helping build systems that your users can truly depend on.
+
+Best regards,
+
+Manigandan B
+Platform and DevOps Engineer
++31 617886316
+mmani27964@gmail.com
+https://mani01012001.github.io/Portfolio/</content>
+<parameter name="filePath">C:\Users\csbaskaranm\Portfolio\Manigandan_Motivation_Letter.txt
