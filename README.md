@@ -20,7 +20,7 @@ A modern portfolio for a DevOps + AIOps Engineer with interactive UI, project hi
 - AI Lab with Prompt Studio use-cases
 - Theme toggle (light/dark)
 - Project filter controls (Reliability, Automation, CI/CD, IaC, AI)
-- Resume page and quick contact actions
+- Quick contact actions and resume download
 
 ## Key Sections
 
